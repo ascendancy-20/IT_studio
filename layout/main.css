@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
+    background: #ffffff;
 }
 
 a {
@@ -16,6 +17,15 @@ a {
     max-width: 1200px;
 }
 
+.btn{
+    background: #4985FF;
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 30px;
+}
+
 /* Start header */
 
 .header {
@@ -23,6 +33,7 @@ a {
     height: 900px;
     color: #ffffff;
     background: url('../layout/img/header_background.png') no-repeat;
+    margin-bottom: 110px;
 }
 
 .header a {
@@ -69,12 +80,40 @@ a {
     line-height: 64px;
 }
 
-.header_main .btn{
-    background: #4985FF;
-    text-align: center;
-    width: 200px;
-    height: 45px;
-    line-height: 45px;
-    border-radius: 30px;
-}
 /* End header */
+
+/* Start About Us */
+
+.about_us {
+    min-width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.about_top {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about_top h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.about_top p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.about_main {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+/* End About Us */
